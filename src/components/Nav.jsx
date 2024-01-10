@@ -1,5 +1,3 @@
-import close from "../../images/icon-close.svg";
-
 function Nav(props) {
   return (
     <div
@@ -26,7 +24,10 @@ function Nav(props) {
           <p className="my-3 font-bold text-lg">Contact</p>
         </div>
       </div>
-      <div className="w-1/4 h-full bg-black opacity-50"></div>
+      <div
+        className="w-1/4 h-full bg-black opacity-50"
+        onClick={props.toggle}
+      ></div>
     </div>
   );
 }

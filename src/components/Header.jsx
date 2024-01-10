@@ -9,7 +9,7 @@ import { useState } from "react";
 function Cart(props) {
   return (
     <div
-      className="w-88   mx-5 md:w-96 h-60 absolute top-14 -left-72 bg-white md:-left-36 md:top-20 shadow-lg rounded-xl"
+      className="w-88  z-40 mx-5 md:w-96 h-60 absolute top-14 -left-72 bg-white md:-left-36 md:top-20 shadow-lg rounded-xl"
       onMouseLeave={() => props.toggle(false)}
     >
       <h1 className="text font-bold ml-5 my-5">Cart</h1>
